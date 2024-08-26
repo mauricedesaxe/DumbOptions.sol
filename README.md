@@ -1,13 +1,18 @@
-## Foundry
+## DumbOptions.sol
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**DumbOptions.sol is a simple protocol for creating and trading options.**
 
-Foundry consists of:
+## Future goals
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- [ ] Write a full testing suite for `Option.sol` covering all possible errors and edge cases
+- [ ] Add forked mainnet support for testing with real Chainlink price feeds 
+
+## Future ideas
+
+- [ ] Add a UI for creating and trading options for any asset that has a Chainlink price feed
+- [ ] Make options fungible and tradeable once initial option sale happens
+- [ ] Consider automation of settlement (at strike price or expiration) 
+- [ ] Consider multi-chain deployment with cross-chain bridges & trading
 
 ## Documentation
 
